@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+.teclado {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:#000000;
+ 	color:#000000;
+	font-weight:bold; 
+	text-decoration : none;
+}
+.visao {
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:#FF0000;
+ 	color:#c7d407;
+	font-weight:bold;
+	text-decoration : none;
+}
+
+.gameover {
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:#ffffff;
+ 	color:#ffffff;
+	font-weight:bold;
+	text-decoration : none;
+}

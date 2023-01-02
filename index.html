@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+<title> Maracujá </title>
+</head>
+<body class="bindex">
+
+  <div id="menu">
+  <div id="menu-right">
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="historia.html">História</a>
+    <a href="quiz.html"> Quiz</a>
+    <a href="index.html"> Index</a>
+  </div>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 50px;font-size:30px;font-family: Arial, Helvetica, sans-serif"></div>
+
+<h2> Index </h2><br>
+
+<br><p class="pindex">Devido ao fato de ter um <span class="tooltip"> maracujazeiro <span class="tooltiptext"> o maracujá é um fruto produzido pelas plantas do gênero Passiflora. O nome da árvore é também conhecido como Maracujazeiro</span></span> no quintal dos meus avós sempre fui muito apegado ao maracujá A maioria das receitas, sempre levava maracujá ou alguma modificação em uma receita de que continha maracujá, então essa fruta remete muito a minha infância, o que acaba sendo algo nostálgico para mim.<br>
+</p><br>
+
+<p class="pindex"> E aí, gostou?? Que tal jogar um joguinho da forca? <br><br> <a href="forca.html" target="_blank"> <span style="color:aliceblue">Clique aqui</span></a></p><br><br><br>
+
+
+<div class="container">
+  <div class="calendar">
+    <div class="month">
+      <i class="fas fa-angle-left prev"></i>
+      <div class="date">
+        <h1>.</h1>
+        <p></p>
+      </div>
+      <i class="fas fa-angle-right next"></i>
+    </div>
+    <div class="weekdays">
+      <div>Dom</div>
+      <div>Seg</div>
+      <div>Ter</div>
+      <div>Qua</div>
+      <div>Qui</div>
+      <div>Sex</div>
+      <div>Sab</div>
+    </div>
+    <div class="days"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("menu").style.padding = "30px 10px";
+ 
+  } else {
+    document.getElementById("menu").style.padding = "80px 10px";
+   
+  }
+}
+</script>
+</body>
+</html>
